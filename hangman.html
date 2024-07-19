@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="hangman.css">
+  <style>
+body {
+    color: rgb(0, 0, 0);
+    margin: 0;
+  }
+  </style>
+  <title>Hangman</title>
+</head>
+<body>
+    <div id="grad1">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="gamenight.html">Game Night</a>
+            <a href="sports.html">Sports</a>
+            <a href="chatbot.html">Chat bot</a>
+            <a href="tictactoe.html">Tic-Tac-Toe</a>
+            <a href="hangman.html">Hangman</a>
+          </div>
+    </div>
+
+    <div class="container">
+        <h1>Hangman Game</h1>
+        <div id="word"></div>
+        <div id="message"></div>
+        <div id="letters"></div>
+        <div id="wrong-letters"></div>
+        <div id="hangman">
+        <div class="hangman-part"></div>
+        <div class="hangman-part"></div>
+        <div class="hangman-part"></div>
+        <div class="hangman-part"></div>
+        <div class="hangman-part"></div>
+        <div class="hangman-part"></div>
+        </div>
+        <button id="restart-button">Restart</button>
+     </div>
+
+     <script src="hangman.js"></script>
+</body>
+</html>

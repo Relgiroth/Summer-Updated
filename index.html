@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Summer Boredom</title>
+    <style>
+        #grad1 {
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: linear-gradient(to bottom right, #7FC8E8, #AF0EA1, #B40B0B);
+          background-size: auto;
+          height: 1312px;
+          width: auto;
+        }
+        p {
+          font-size: 40px;
+        }
+
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+    </style>
+</head>
+
+
+
+<body>
+  <div id="grad1">
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="gamenight.html">Game Night</a>
+        <a href="sports.html">Sports</a>
+        <a href="chatbot.html">Chat bot</a>
+        <a href="tictactoe.html">Tic-Tac-Toe</a>
+
+      </div>
+      
+      <header style="padding-left:16px">
+        <h1 style="text-align:center">Summer Boredom</h1>
+      </header>
+    <main>
+        <img src="Friends" alt="friends hanging out as a group" class="center">
+        <p style="text-align:center">During the summer months, boredom is easily banished with a plethora of engaging activities. Whether you prefer classic word 
+          games, strategic board games, or video games, the thrill of sports under the sun, or the camaraderie of game nights with friends, there's something for everyone to enjoy.</p>
+        <p style="text-align:center"> Check out the navigation bar for some activities and games you might want to play.</p>
+   </main>
+  </div>
+
+  <h1>Generate Text</h1>
+  <form id="inputForm">
+    <label for="textInput">Enter your prompt:</label><br>
+    <textarea id="textInput" rows="4" cols="50" placeholder="Enter your prompt here"></textarea><br>
+    <button type="submit">Generate Text</button>
+  </form>
+  <div id="generated-text">Loading...</div>
+
+<script src="frontend.js"></script>
+</body>

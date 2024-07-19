@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+  }
+          
+  .container {
+    text-align: center;
+  }
+          
+  #word {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+  }
+          
+  #message {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: red;
+  }
+          
+  #letters {
+    margin: 20px 0;
+  }
+          
+  .letter {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+          
+  .letter:hover {
+    color: blue;
+  }
+          
+  #wrong-letters {
+    margin: 20px 0;
+  }
+          
+  #hangman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+          
+  .hangman-part {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 5px;
+    display: none;
+  }
+          
+  #restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
